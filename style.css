@@ -353,3 +353,172 @@ hr {
     width: 60px;
     margin: 0;
 }
+@media (max-width: 768px) {
+
+    /* CABEÇALHO */
+
+    header {
+        padding: 15px;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .sobre {
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+
+    /* PÁGINA 1 */
+
+    .inicio {
+        padding-bottom: 70px;
+    }
+
+    .frase {
+        font-size: 42px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .img1 {
+        display: block;
+        width: 85%;
+        height: auto;
+        margin: 40px auto 0;
+        border-radius: 30px;
+    }
+
+    .inicio p {
+        margin: 40px 20px 0;
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    /* SOBRE MIM */
+
+    .sobremim {
+        padding: 50px 20px;
+        min-height: auto;
+    }
+
+    .h22 {
+        font-size: 35px;
+    }
+
+    .s1 {
+        width: auto;
+        margin: 40px 20px 0;
+        font-size: 16px;
+    }
+
+
+    /* CARDS SOBRE MIM */
+
+    .car1,
+    .car2,
+    .car3 {
+        width: 220px;
+        height: auto;
+
+        margin: 40px auto 0;
+
+        padding: 35px;
+    }
+
+
+    /* CONHECIMENTOS */
+
+    .tecnologias {
+        padding: 50px 20px;
+        min-height: auto;
+    }
+
+    .con {
+        font-size: 32px;
+    }
+
+    .con1 {
+        width: auto;
+        margin: 30px 15px 0;
+        font-size: 17px;
+    }
+
+
+    /* CARDS DAS TECNOLOGIAS */
+
+    .cardhtml,
+    .cardcss,
+    .cardjs,
+    .cardfi,
+    .cardgi,
+    .cardux {
+        width: 220px;
+        height: auto;
+
+        margin: 35px auto 0;
+
+        padding: 30px;
+    }
+
+
+    /* HTML */
+
+    .h21 {
+        position: static;
+        margin: 0;
+    }
+
+    .html {
+        width: 100px;
+        margin: 15px auto 0;
+        display: block;
+    }
+
+
+    /* CSS */
+
+    .h210 {
+        position: static;
+        margin: 0;
+    }
+
+    .css {
+        width: 70px;
+        margin: 15px auto 0;
+        display: block;
+    }
+
+
+    /* FIGMA */
+
+    .hfi {
+        position: static;
+        margin: 0;
+    }
+
+    .figma {
+        width: 60px;
+        margin: 15px auto 0;
+        display: block;
+    }
+
+
+    /* GITHUB */
+
+    .hgi {
+        position: static;
+        margin: 0;
+    }
+
+    .gth {
+        width: 70px;
+        margin: 15px auto 0;
+        display: block;
+    }
+}
