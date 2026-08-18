@@ -7,6 +7,7 @@ body{
     background-color: #1f1f1f;
     
 }
+/* CABEÇA */
 header {
     background-color: #1f1f1f;
     display: flex;
@@ -26,34 +27,329 @@ h1{
     text-align: right ;
     margin-right: 10px;
 }
-img{
+/* PÁGINA 1  */
+.img1{
     margin-left: 1000px;
-    width: 350px;
-    height: 450px;
+    width: 450px;
+    height: 600px;
     box-shadow: #c8cacd;
     border-radius: 50px;
+    margin-top: -200px;
 }
 p{
     margin-left: 75px;
-    font-size: 22px;
+    font-size: 28px;
     color: #d6dfec;
-    position: relative;
-    top: -400px;
-}
-a{
-    color: #637fb9;
-    font-size: 20px;
-    position: relative;
-    top: -250px;
-    margin-left: 80px;
+    margin-top: -300px;
 }
 hr {
   border-color: #4b5563;
   border-width: 1px;
   border-style: solid;
 }
-.hab{
+.frase{
     color: #d6dfec;
-    font-size: 50px;
+    font-size: 80px;
     margin-left: 80px;
+}
+.inicio{
+    background-color: #1f1f1f;
+    padding-bottom: 150px;
+}
+/* SOBRE MIM */
+.sobremim{
+    background-color: #2a2a2a;
+    padding: 50px;
+    min-height: 90vh;
+}
+.h22{
+    text-align: center;
+    margin-left: 0px;
+    color: #d6dfec;
+    font-size: 50px
+}
+.s1 {
+    color: #d6dfec;
+    font-size: 17px;
+    width: 650px;
+    margin: 60px auto 0 ; 
+    text-align: center;
+    width: 700px;
+}
+/* CARD FRONT-END */
+.car1 {
+    padding: 50px;
+    height: 70px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #1b1f41;
+    margin-left: 135px;
+    margin-top: 90px;
+    box-shadow: 0 0 45px #09082d;
+}
+
+.topoc1{
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.imgf {
+    height: 40px;
+    margin: 0;
+    filter: invert(1);
+}
+
+.hf {
+    color: #d6dfec ;
+    font-size: 25px;
+    margin: 0;
+    white-space: nowrap;
+}
+.pf {
+    color: #d6dfec;
+    font-size: 17px;
+    margin: 15px 0 0;
+    margin: 18px auto 0 ; 
+    width: 200px;
+    text-align: center;
+
+}
+/* CARD DESIGN */
+.car2 {
+    padding: 50px;
+    height: 70px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #1b1f41;
+    margin-left: 555px;
+    margin-top: -168px;
+    box-shadow: 0 0 45px #09082d;
+}
+.imgd {
+    height: 40px;
+    margin: 0;
+    filter: invert(1);
+}
+.hd {
+    color: #d6dfec ;
+    font-size: 25px;
+    margin: 0;
+    white-space: nowrap;
+}
+.topoc2{
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+.pd {
+    color: #d6dfec;
+    font-size: 17px;
+    margin: 12px 0 0;
+    text-align: center;
+    margin: 20px auto 0;
+    width: 220px;
+    margin-left: -8px;
+
+}
+/* CARD GITHUB */
+.car3 {
+    padding: 50px;
+    height: 70px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #1b1f41;
+    margin-left: 975px;
+    margin-top: -168px;
+    box-shadow: 0 0 45px #09082d;
+}
+.imgg {
+    height: 40px;
+    margin: 0;
+    filter: invert(1);
+}
+.hg {
+    color: #d6dfec ;
+    font-size: 25px;
+    margin: 0;
+    white-space: nowrap;
+}
+.topoc3{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    justify-content: center;
+}
+.pg {
+    color: #d6dfec;
+    font-size: 17px;
+    margin: 12px 0 0;
+    text-align: center;
+    margin: 20px auto 0;
+    width: 240px;
+    margin-left: -18px;
+
+}
+/* CONHECIMENTOS*/
+.tecnologias{
+    background-color: #212122;
+    padding: 60px;
+    min-height: 90vh;
+}
+.con1 {
+    color: #d6dfec;
+    font-size: 20px;
+    width: 1000px;
+    margin: 80px auto 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.con{
+    text-align: center;
+    margin-left: 0px;
+    color: #d6dfec;
+    font-size: 40px
+}
+/* CARD HTML*/
+.cardhtml{
+    padding: 50px;
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #3a3939;
+    margin-left: 180px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px #e5e7eb;
+}
+.h21{
+    color: #e5e7eb;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+.html{
+    width: 180px;
+    margin-left: 75px;
+    margin-top: -85px;
+}
+/* CARD CSS*/
+.cardcss{
+    padding: 50px;
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #3a3939;
+    margin-left: 560px;
+    margin-top: -118px;
+    box-shadow: 0 0 10px #e5e7eb;
+}
+.h210{
+    color: #e5e7eb;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+.css{
+    width: 100px;
+    margin-left: 115px;
+    margin-top: -85px;
+}
+/* CARD JS*/
+.cardjs {
+    padding: 50px;
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #3a3939;
+    margin-left: 940px;
+    margin-top: -118px;
+    box-shadow: 0 0 10px #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.hjs {
+    color: #e5e7eb;
+    font-size: 20px;
+    margin: 0;
+    white-space: nowrap;
+}
+.js {
+    width: 70px;
+    margin: 0;
+}
+/* CARD FIGMA */
+.cardfi{
+    padding: 50px;
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #3a3939;
+    margin-left: 180px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px #e5e7eb;
+}
+.hfi{
+    color: #e5e7eb;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+.figma{
+    width: 80px;
+    margin-left: 115px;
+    margin-top: -110px;
+}
+/* CARD GIT HUB2 */
+.cardgi{
+    padding: 50px;
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #3a3939;
+    margin-left: 560px;
+    margin-top: -118px;
+    box-shadow: 0 0 10px #e5e7eb;
+}
+.hgi{
+    color: #e5e7eb;
+    font-size: 25px;
+    position: relative;
+    top: -10px;
+}
+.gth{
+    width: 90px;
+    margin-left: 115px;
+    margin-top: -85px;
+}
+/* CARD UX/UI*/
+.cardux {
+    padding: 50px;
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #3a3939;
+    margin-left: 940px;
+    margin-top: -118px;
+    box-shadow: 0 0 10px #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.hux {
+    color: #e5e7eb;
+    font-size: 20px;
+    margin: 0;
+    white-space: nowrap;
+}
+.ux {
+    width: 60px;
+    margin: 0;
 }
