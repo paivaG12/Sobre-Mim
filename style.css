@@ -44,7 +44,7 @@ p{
 }
 hr {
   border-color: #4b5563;
-  border-width: 1px;
+  border-width: 2px;
   border-style: solid;
 }
 .frase{
@@ -376,9 +376,160 @@ hr {
 }
 /* CARD PORTIFÓLIO*/
 .cardport{
-    background-color: #3a3939;
+    box-shadow: 0 0 10px #e5e7eb;
+    border-radius: 35px;
+    background-color: #343434;
     padding: 250px;
     width: 10px;
+    height: 30px;
     margin-top: 100px;
-    margin-left: 100px
+    margin-left: 60px;
+}
+.numero1{
+    font-size: 25px;
+    color: #6286bb;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.p01{
+    width: 200px;
+    font-size: 25px;
+    color: #d6dfec;
+    margin-left: -200px;
+    margin-top: 0px;
+    
+}
+.pp{
+    width: 400px;
+    font-size: 18px;
+    color: #d6dfec;
+    margin-left: -200px;
+    margin-top: 20px; 
+}
+.tags{
+    margin-left: -125px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.tag1 {
+    background-color: #191d43;
+    color: #dbeafe;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    
+}
+.tag2 {
+    background-color: #191d43;
+    color: #dbeafe;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    
+}
+.status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 50px;
+    margin-left: -200px;
+}
+.bolinha {
+    color: #facc15;
+    font-size: 25px;
+}
+.hh1 {
+    color: #d6dfec;
+    font-size: 22px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+/* CARD VAGARADAR*/
+.cardvr{
+    box-shadow: 0 0 10px #e5e7eb;
+    border-radius: 35px;
+    background-color: #343434;
+    padding: 250px;
+    width: 10px;
+    height: 30px;
+    margin-top: -530px;
+    margin-left: 770px;
+}
+.numero2{
+    font-size: 25px;
+    color: #6286bb;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.p02{
+    width: 200px;
+    font-size: 25px;
+    color: #d6dfec;
+    margin-left: -200px;
+    margin-top: 0px;
+    
+}
+.pv{
+    width: 400px;
+    font-size: 18px;
+    color: #d6dfec;
+    margin-left: -200px;
+    margin-top: 20px; 
+}
+.tags1{
+    margin-left: -170px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.tag11 {
+    background-color: #191d43;
+    color: #dbeafe;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.tag22 {
+    background-color: #191d43;
+    color: #dbeafe;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+    margin-left: -200px;
+}
+.bolinha {
+    color: #facc15;
+    font-size: 25px;
+}
+.hh1 {
+    color: #d6dfec;
+    font-size: 22px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.pp02 {
+    margin-top: 15px;
+    margin-left: -180px;
+    color: #8cb3ed;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.linkvr {
+    color: #dbeafe;
+    padding: 15px 20px;
+    font-size: 18px;
+    white-space: nowrap;
+    margin-left: -200px;
+    margin-top: 0px;
+    display: inline-block;
 }
